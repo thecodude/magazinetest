@@ -1,0 +1,11 @@
+@mixin transform($property) {
+  -webkit-transform: $property;
+      -ms-transform: $property;
+          transform: $property;
+}
+
+@mixin transition($value) {
+  -webkit-transition: $value;
+      -ms-transition: $value;
+          transition: $value;
+}
